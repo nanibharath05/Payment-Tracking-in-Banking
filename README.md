@@ -1,9 +1,7 @@
-**💳 Payment Tracking in Banking – Salesforce Project**
+# 🛍️ Payment Tracking in Banking 
+## Problem 
 
-**Problem Statement**
-
-Banks often face challenges in tracking loan payments, EMIs, and overdue recoveries.
-Currently, much of the process is:
+Banks often face challenges in tracking loan payments, EMIs, and overdue recoveries. Currently, much of the process is:
 
 ✅ Manual (spreadsheets, phone calls, reminders).
 
@@ -12,10 +10,9 @@ Currently, much of the process is:
 ❌ Lacking visibility (managers can’t see consolidated repayment data).
 
 This leads to delayed recoveries, poor customer experience, and inefficiency.
+## Solution
 
-**Solution**
-
-We designed and implemented a Payment Tracking System in Salesforce that automates loan repayment workflows:
+Designed and implemented a Payment Tracking System in Salesforce that automates loan repayment workflows:
 
 🔹 Loan Object → Stores loan details (Principal, Interest, Status).
 
