@@ -1,18 +1,32 @@
-# Salesforce DX Project: Next Steps
+**💳 Payment Tracking in Banking – Salesforce Project**
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+**Problem Statement**
 
-## How Do You Plan to Deploy Your Changes?
+Banks often face challenges in tracking loan payments, EMIs, and overdue recoveries.
+Currently, much of the process is:
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+✅ Manual (spreadsheets, phone calls, reminders).
 
-## Configure Your Salesforce DX Project
+❌ Error-prone (missed follow-ups, wrong tracking).
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+❌ Lacking visibility (managers can’t see consolidated repayment data).
 
-## Read All About It
+This leads to delayed recoveries, poor customer experience, and inefficiency.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+**Solution**
+
+We designed and implemented a Payment Tracking System in Salesforce that automates loan repayment workflows:
+
+🔹 Loan Object → Stores loan details (Principal, Interest, Status).
+
+🔹 Payment Object → Tracks EMI/repayments linked to Loans.
+
+🔹 Recovery Object → Assigns overdue loans to Recovery Agents.
+
+🔹 Role Hierarchy → Manager → Loan Officer / Recovery Agent.
+
+🔹 Permission Sets & Sharing Rules → Ensure secure, role-based access.
+
+🔹 Automation → Status changes, overdue detection, recovery assignment.
+
+🔹 Reports & Dashboards → For overdue loans, payment collections, recovery performance.
