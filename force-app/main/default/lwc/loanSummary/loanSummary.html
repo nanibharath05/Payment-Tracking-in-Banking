@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Loan Summary">
+        <template if:true={summary}>
+            <p><strong>Total Payments:</strong> {summary.totalPayments}</p>
+            <p><strong>Paid Payments:</strong> {summary.paidPayments}</p>
+        </template>
+        <template if:false={summary}>
+            <p>No summary available.</p>
+        </template>
+    </lightning-card>
+</template>

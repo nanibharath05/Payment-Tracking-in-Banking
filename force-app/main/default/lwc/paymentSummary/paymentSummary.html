@@ -1,0 +1,9 @@
+<template>
+  <lightning-card title="Payment Summary" icon-name="custom:custom63">
+      <c-payment-child onrefreshsummary={handleRefresh}></c-payment-child>
+      <div class="slds-p-around_medium">
+          <p><b>Total Payments:</b> {summary.totalPayments}</p>
+          <p><b>Paid Payments:</b> {summary.paidPayments}</p>
+      </div>
+  </lightning-card>
+</template>

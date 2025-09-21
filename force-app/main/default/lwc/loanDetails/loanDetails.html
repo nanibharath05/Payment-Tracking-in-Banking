@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Loan Details">
+        <lightning-button label="Load Loan Info" onclick={loadLoan}></lightning-button>
+
+        <template if:true={loan}>
+            <p><strong>Loan Number:</strong> {loan.Name}</p>
+            <p><strong>Principal Amount:</strong> {loan.Principal_Amount__c}</p>
+            <p><strong>Status:</strong> {loan.Status__c}</p>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Payment Details">
+        <template if:true={payments}>
+            <template for:each={payments} for:item="pay">
+                <p key={pay.Id}>
+                    <strong>Payment #{pay.Id}</strong> - {pay.Status__c} : {pay.Amount__c}
+                </p>
+            </template>
+        </template>
+        <template if:false={payments}>
+            <p>No payments found.</p>
+        </template>
+    </lightning-card>
+</template>
