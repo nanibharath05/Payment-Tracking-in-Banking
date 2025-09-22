@@ -1,0 +1,58 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Bank Payment Tracking API",
+      "description": "External API for loan validation and payment",
+      "version": "1.0.0"
+    },
+    "host": "api.mybank.com",
+    "basePath": "/",
+    "schemes": ["https"],
+    "paths": {
+      "/validateLoan": {
+        "get": {
+          "summary": "Validate Loan",
+          "parameters": [
+            {
+              "name": "loanId",
+              "in": "query",
+              "type": "string",
+              "required": true
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Validation result",
+              "schema": { "type": "string" }
+            }
+          }
+        }
+      },
+      "/makePayment": {
+        "post": {
+          "summary": "Make a Payment",
+          "parameters": [
+            {
+              "name": "loanId",
+              "in": "query",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "amount",
+              "in": "query",
+              "type": "number",
+              "required": true
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Payment result",
+              "schema": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+  
