@@ -19,8 +19,10 @@ Designed and implemented a Payment Tracking System in Salesforce that automates 
 🔹 Payment Object → Tracks EMI/repayments linked to Loans.
 
 🔹 Recovery Object → Assigns overdue loans to Recovery Agents.
-Documentation link : https://docs.google.com/document/d/1KgsjA_pe5jMjzUCmkOOnjrR0GbOaIm_J6FFsb85qRKA/edit?usp=sharing
+
 🔹 Role Hierarchy → Manager → Loan Officer / Recovery Agent.
+
+ Documentation link : https://docs.google.com/document/d/1KgsjA_pe5jMjzUCmkOOnjrR0GbOaIm_J6FFsb85qRKA/edit?usp=sharing
 
 🔹 Permission Sets & Sharing Rules → Ensure secure, role-based access.
 
