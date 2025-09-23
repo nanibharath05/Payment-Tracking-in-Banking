@@ -22,10 +22,12 @@ Designed and implemented a Payment Tracking System in Salesforce that automates 
 
 🔹 Role Hierarchy → Manager → Loan Officer / Recovery Agent.
 
- Documentation link : https://docs.google.com/document/d/1KgsjA_pe5jMjzUCmkOOnjrR0GbOaIm_J6FFsb85qRKA/edit?usp=sharing
-
 🔹 Permission Sets & Sharing Rules → Ensure secure, role-based access.
 
 🔹 Automation → Status changes, overdue detection, recovery assignment.
 
-🔹 Reports & Dashboards → For overdue loans, payment collections, recovery performance.
+Documentation link :
+https://docs.google.com/document/d/1KgsjA_pe5jMjzUCmkOOnjrR0GbOaIm_J6FFsb85qRKA/edit?usp=sharing
+
+
+
