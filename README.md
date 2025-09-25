@@ -27,7 +27,7 @@ Designed and implemented a Payment Tracking System in Salesforce that automates 
 🔹 Automation → Status changes, overdue detection, recovery assignment.
 
 Documentation link :
-https://docs.google.com/document/d/1fJ6dY2KvHj8gxbRbV_Jw3zP1fW2Z-22qFMa0gcekDoo/edit?usp=sharing
+https://docs.google.com/document/d/1i2ufJaZk2E3DXJdfASvMS8NYSj6iRLXhMbcQGC2tp8A/edit?tab=t.0
 
 
 
